@@ -1,0 +1,214 @@
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+
+    /* background-color: rgba(0,0,0,0.3); */
+}
+
+.container h1{
+    font-family: sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-top: 30px;
+}
+
+/* service-construction */
+
+.construction-service{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+}
+
+.construction-service .service-paragraph{
+    width: 55%;
+
+    margin-right: 70px;
+
+}
+
+.construction-service .service-paragraph h2{
+    font-family: sans-serif;
+    font-size: 3rem;
+
+    text-align: center;
+    
+}
+
+.construction-service .service-paragraph p{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+
+    text-align: center;
+    margin-top: 40px;
+}
+
+.construction-service .service-img{
+    position: relative;
+
+    margin-right: 100px;
+}
+
+.construction-service .service-img .construction-one{
+   width: 200px;
+   height: 200px;
+
+   border-radius: 20px;
+   margin-left: 50px;
+}
+
+.construction-service .service-img .construction-two{
+    width: 200px;
+    height: 200px;
+
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -50px;
+}
+/* service-interior */
+
+
+.interior-service{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.interior-service .service-paragraph{
+    width: 55%;
+
+    margin-left: 180px;
+
+    
+}
+
+.interior-service .service-paragraph h2{
+    font-family: sans-serif;
+    font-size: 3rem;
+
+    text-align: center;
+    
+}
+
+.interior-service .service-paragraph p{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+
+    text-align: center;
+    margin-top: 40px;
+    top: 0;
+    left: 0;
+    
+}
+
+.interior-service .service-img{
+  
+    position: relative;
+    
+   
+}
+
+
+.interior-service .service-img .interior-one{
+    width: 200px;
+    height: 200px;
+
+    border-radius: 20px;
+    top: 0px;
+    right: 0px;
+    
+
+} 
+
+.interior-service .service-img .interior-two{
+    width: 200px;
+    height: 200px;
+
+    border-radius: 20px;
+    position: absolute;
+    top: 70px;
+    left: 130px;
+}
+
+/* service-upvc */
+
+/* upvc-service */
+
+.upvc-service{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+}
+
+.upvc-service .service-paragraph{
+    width: 55%;
+
+    margin-right: 70px;
+
+}
+
+.upvc-service .service-paragraph h2{
+    font-family: sans-serif;
+    font-size: 3rem;
+
+    text-align: center;
+    
+}
+
+.upvc-service .service-paragraph p{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+
+    text-align: center;
+    margin-top: 40px;
+}
+
+.upvc-service .service-img{
+    position: relative;
+
+    margin-right: 100px;
+}
+
+.upvc-service .service-img .construction-one{
+   width: 200px;
+   height: 200px;
+
+   border-radius: 20px;
+   margin-left: 50px;
+}
+
+.upvc-service .service-img .construction-two{
+    width: 200px;
+    height: 200px;
+
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -50px;
+}
